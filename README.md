@@ -1,2 +1,2 @@
-# HTML-CSS-Javascript
-Personal HTML, CSS, Javascript study.
+# Front-End.
+**Personal HTML, CSS, Javascript study.**
