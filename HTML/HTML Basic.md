@@ -66,7 +66,7 @@
 ## HTML의 특수 문자.
 | Literal Character | Character Reference Equivalent |
 |--|--|
-| < | &it; |
+| < | &t; |
 | > | &gt; |
 | " | &quot; |
 | ' | &apos; |
