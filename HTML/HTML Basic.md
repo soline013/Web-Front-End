@@ -66,11 +66,11 @@
 ## HTML의 특수 문자.
 | Literal Character | Character Reference Equivalent |
 |--|--|
-| < | &t; |
-| > | &gt; |
-| " | &quot; |
-| ' | &apos; |
-| & | &amp; |
+| < | \&lt; |
+| > | \&gt; |
+| " | \&quot; |
+| ' | \&apos; |
+| & | \&amp; |
 
 ## HTML 주석.
 ```HTML
