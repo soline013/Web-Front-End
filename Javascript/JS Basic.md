@@ -1,6 +1,6 @@
-# JS Basic
+# JS Basic.
 
-### 문(Statement).
+## 문(Statement).
 
 문법 구조(Syntax Structure), 명령어(Command)를 의미한다.
 
