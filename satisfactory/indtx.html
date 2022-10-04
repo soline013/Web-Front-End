@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+   <head>
+	    <meta charset="UTF-8">
+	    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, 
+        initial-scale=1, maximum-scale=1, user-scalable=0">
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="https://kit.fontawesome.com/c6d50381f7.js" crossorigin="anonymous"></script>
+	    <title>Satisfactory</title>
+	</head>
+
+    <body>
+        <header>
+            <h1>Satisfactory Factory Design</h1>
+        </header>
+
+        <section>
+            <img src="box.png" id="box"/>
+            <div id="button">
+                <i class="fa-solid fa-circle-plus fa-4x"></i>
+            </div>
+        </section>
+    
+        <!--
+        <div id="outerContainer">
+            <div id="container">
+                <div id="item">
+                    <input id="name"/>
+                </div>
+            </div>
+        </div>
+        -->
+        
+
+        <!--<script type="module" src="move.js"></script>-->
+        <script type="module" src="box.js"></script>
+        <script>
+            var classButton = document.querySelector("#button");
+            var classBox = document.querySelector("#box");
+
+            classButton.addEventListener("click", addBox);
+                
+            function addBox(e) {
+                var box2 = document.createElement("img");
+                box2.src = "box.png";
+                box2.id = "box";
+                document.body.appendChild(box2);
+                body.section.appendTo(box2);
+            }
+        </script>
+    </body>
+</html>

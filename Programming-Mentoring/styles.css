@@ -1,33 +1,9 @@
-body {
-    background-color:snow;
+@charset 'utf-8';
+* {
+    padding: 0;
+    margin: 0;
 }
 
-h1 {
+div.header {
     text-align: center;
-    color: black;
-    font-family: "나눔고딕";
-}
-
-.snow {
-    background-color: snow;
-}
-
-.whitesmoke {
-    background-color: whitesmoke;
-}
-
-.white {
-    background-color: white;
-}
-
-.seashell {
-    background-color: seashell;
-}
-
-.ivory {
-    background-color: ivory;
-}
-
-.ghostwhite {
-    background-color: ghostwhite;
 }
