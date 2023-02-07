@@ -4,6 +4,54 @@
     margin: 0;
 }
 
+body {
+}
+
+div {
+    box-shadow: 5px 5px 5px 5px gray;
+    box-sizing: border-box;
+    margin: 30px auto;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+
 div.header {
     text-align: center;
+    width: 800px;
+    height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 60px;
+    padding-top: 40px;
+    line-height: 100px;
+}
+
+div.article {
+    width: 800px;
+    height: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 50px;
+    text-align: center;
+}
+
+div.article h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.article p {
+    display: block;
+    width: 350px;
+    height: 100px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 10px;
+    margin-left: 20px;
+    padding-top: 40px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+
+div.article p:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
